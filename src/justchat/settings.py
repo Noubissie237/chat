@@ -70,9 +70,17 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'justchat.wsgi.application'
-# Daphne
+# mysite/settings.py
+# Channels
 ASGI_APPLICATION = "justchat.asgi.application"
-
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("127.0.0.1", 6379)],
+        },
+    },
+}
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
