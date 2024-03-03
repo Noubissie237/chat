@@ -1,0 +1,10 @@
+# Virtual environment folder
+venv
+
+# Environment variables file
+.env
+
+# Not-to-push, somehow useless, folders
+.idea
+*__pycache__*
+db.sqlite3
