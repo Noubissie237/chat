@@ -1,17 +1,26 @@
-# Avant de lancer le serveur, il faut premièrement lancer redis en tapant la commande :
+# Welcome to chatapp 👋
+[![Version](https://img.shields.io/npm/v/chatapp.svg)](https://www.npmjs.com/package/chatapp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-    ´´´docker run --rm -p 6379:6379 redis:7´´´
+> This is a chat application project allowing users to communicate with each other in real-time, built using HTML, CSS and ReactJS for the frontend, Django for the backend and WebSockets.
 
-## Tapez les commandes:
++ **[Frontend](./client)**
+  ```sh
+  cd client/
+  ```
+- **[Backend](./server)**
+  ```sh
+  cd server/
+  ```
 
-    sudo npm install -g parcel-bundler
+## Author
 
-    npm init -y
+👤 **Noubissie237**
 
-    npm install --save-dev @babel/core @babel/plugin-proposal-class-properties @babel/preset-react
+* Twitter: [@nkw_237](https://twitter.com/nkw_237)
+* Github: [@Noubissie237](https://github.com/Noubissie237)
+* LinkedIn: [@wilfried-noubissie-kamga](https://linkedin.com/in/wilfried-noubissie-kamga)
 
-    npm install --save react react-dom
+## Show your support
 
-    npm start
-
-    Le fichier package.json doit ressembler à celle sur l'image
+Give a ⭐️ if this project helped you!

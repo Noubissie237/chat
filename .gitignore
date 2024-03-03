@@ -1,6 +1,0 @@
-virtuel/
-__pycache__/
-db.sqlite3
-node_modules/
-.cache/
-dist/
